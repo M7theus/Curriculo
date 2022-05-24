@@ -1,3 +1,5 @@
+@charset "utf-8";    
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,8 +10,9 @@
 }
 
 header{
-    max-width: 800px;
-    min-width: 370px;
+    display: inline-block;
+    max-width: 600px;
+    min-width: 550px;
 }
 
 header h1{
@@ -21,24 +24,39 @@ aside{
     background-color: rgba(211, 211, 211, 0.267);
     padding: 8px 0px 7px 10px;
     border: 1px;
-    width: 50vw;
     left: 100%;
     top: 0%;
-    transform: translate(-50%,0%);
+    transform: translate(-100%,0%);
     max-width: 800px;
-    min-width: 350px;
+    min-width: 200px;
+    
+}
+
+main > aside > h3{
+    background-color: rgba(185, 183, 183, 0.199);
 }
 
 aside h3{
+    font-size: 1.5em;
+    text-align: center;
     color: var(--cor01);
     text-decoration: underline;
 }
 
 #telefone{
-    background-image: url('../imagens/telefone.png');
+    background-image: url('../imagens/telephone-fill.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     margin: 0px;
     margin-top: 10px;}
+
+#telefone_1{
+    max-width: 740px;
+    min-width: 100px;
+    position: absolute;
+    left: 53px;
+    top: 44px
+;
+}
