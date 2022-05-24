@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: rgba(161,30,34)
+}
+
+header{
+    max-width: 800px;
+    min-width: 370px;
+}
+
+header h1{
+    color: var(--cor01);
+}
+
+aside{
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.267);
+    padding: 8px 0px 7px 10px;
+    border: 1px;
+    width: 50vw;
+    left: 100%;
+    top: 0%;
+    transform: translate(-50%,0%);
+    max-width: 800px;
+    min-width: 350px;
+}
+
+aside h3{
+    color: var(--cor01);
+    text-decoration: underline;
+}
+
+#telefone{
+    background-image: url('../imagens/telefone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    margin: 0px;
+    margin-top: 10px;}
