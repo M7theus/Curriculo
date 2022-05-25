@@ -9,15 +9,62 @@
     --cor01: rgba(161,30,34)
 }
 
+main{
+    margin: auto;
+    max-width: 900px;
+    min-width: 370px;
+    border: 1px solid black;
+}
+
 header{
     display: inline-block;
-    max-width: 600px;
-    min-width: 550px;
+    
 }
 
 header h1{
+    padding: 20px 10px 10px 20px;
     color: var(--cor01);
 }
+
+header h2{
+    font-weight: 600;
+    padding: 0px 10px 50px 20px;
+}
+
+hr{
+    background-color: var(--cor01);
+    border-color: var(--cor01);
+}
+
+section h3{
+    font-size: 1.7em;
+    color: var(--cor01);
+}
+
+.formatacao{
+    padding: 0px 10px 10px 15px;
+}
+
+.formatacao_01{
+    font-size: 1.2em;
+    text-indent: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 609px;
+}
+
+#projeto_01{
+    background-image: url('../imagens/site_python.png');
+    background-position: center top;
+    display: inline-block;
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
 
 aside{
     position: absolute;
@@ -27,8 +74,8 @@ aside{
     left: 100%;
     top: 0%;
     transform: translate(-100%,0%);
-    max-width: 800px;
-    min-width: 200px;
+    width: 200px;
+    
     
 }
 
@@ -53,8 +100,6 @@ aside h3{
     margin-top: 10px;}
 
 #telefone_1{
-    max-width: 740px;
-    min-width: 100px;
     position: absolute;
     left: 53px;
     top: 44px
