@@ -53,13 +53,24 @@ section h3{
     max-width: 609px;
 }
 
+
 #projeto_01{
-    background-image: url('../imagens/site_python.png');
-    background-position: center top;
+    position: relative;
     display: inline-block;
-    background-color: gray;
-    height: 300px;
+    
+}
+
+img{
+    border: 1px solid black;
+    padding: 3px;
     width: 300px;
+    height: 150xp;
+    opacity: 0.6;
+}
+
+img:hover{
+    transition: 2s;
+    opacity: 1;
 }
 
 
@@ -92,7 +103,7 @@ aside h3{
 
 #telefone{
     background-image: url('../imagens/telephone-fill.svg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -104,4 +115,20 @@ aside h3{
     left: 53px;
     top: 44px
 ;
+}
+
+#email{
+    background-image: url('../imagens/envelope.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#email_1{
+    position: absolute;
+    left: 53px;
+    top: 90px;
+    max-width: 10px;
 }
