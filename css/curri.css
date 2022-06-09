@@ -99,6 +99,10 @@ aside h3{
     text-decoration: underline;
 }
 
+table{
+    width: 500px;
+}
+
 #telefone{
     background-image: url('../imagens/telephone-fill.svg');
     background-size: cover;
